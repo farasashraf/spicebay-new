@@ -1,0 +1,14 @@
+# Logs
+tunnel.log
+*.log
+
+# Environment variables
+.env
+backend/.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
