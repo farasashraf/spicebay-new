@@ -1,12 +1,3 @@
 {
-    "rewrites": [
-        {
-            "source": "/api/(.*)",
-            "destination": "/backend/app.py"
-        },
-        {
-            "source": "/((?!api|public|.*\\..*).*)",
-            "destination": "/index.html"
-        }
-    ]
+  "cleanUrls": true
 }
